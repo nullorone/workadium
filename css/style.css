@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'GothamProLight';
+    src: url(../fonts/GothamProLight.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'GothamProBold';
+    src: url(../fonts/GothamProBold.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    margin: 0;
+/*    font-family: 'Open Sans', sans-serif;*/
+    font-family: 'GothamProLight', 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+/*
+.wrapper {
+    margin: 0 auto;
+    
+}
+*/
+/*--------------------HEADER--------------------*/
+.header {
+    width: 100%;
+    min-height: 76px;
+    background-color: #27273e;
+    color: #000;
+}
+.container {
+    padding: 0 20px;
+    padding-top: 12px;
+}
+.header__block {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 99px;
+    height: 51px;
+}
+.phone__link {
+    font-family: 'GothamProBold', 'Open Sans', sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.shedule__header {
+    margin: 0;
+    margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;   
+    font-weight: 700;
+    color: #5dd1f8;
+    text-align: right;
+    text-decoration: underline;
+}
+.shedule__header:hover {
+    display: block;
+}
+.shedule__block {
+    display: none;
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 5px #000;
+}
+/*--------------------SIDEBAR-------------------------*/
+.main__container {
+    display: flex;
+    text-align: center;
+}
+.sidebar {
+    width: 160px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.sidebar__menu {
+    list-style: none;
+}
+
+.sidebar__link {
+    display: inline-block;
+    font-family: 'GothamProBold', 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #221f1f;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.sidebar__link::before {    
+    content: '';
+    width: 21px;
+    height: 19px;
+    background: url(../img/icons_aside.png) no-repeat top center ;
+}
+/*-----------------MAIN---------------------------*/
+.main {
+    display: block;
+    width: 676px;
+    text-align: left;
+}
+.main__bg {
+    margin: 0;
+}
+.main__img {
+    width: 879px;
+    height: 354px;
+}
