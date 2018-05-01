@@ -19,10 +19,17 @@ body {
     font-size: 18px;
     
 }
-/*
+
 .wrapper {
+    width: 1100px;
+    height: 100%;
     margin: 0 auto;
+    overflow: hidden;
     
+}
+/*
+.wrapper::after {
+    margin-bottom: -77px;
 }
 */
 /*--------------------HEADER--------------------*/
@@ -80,7 +87,7 @@ body {
     margin-right: 20px;
     margin-left: 20px;
 }
-.sidebar__menu {
+.sidebar__list {
     list-style: none;
 }
 
@@ -104,13 +111,187 @@ body {
 /*-----------------MAIN---------------------------*/
 .main {
     display: block;
-    width: 676px;
+    width: 880px;
     text-align: left;
 }
 .main__bg {
     margin: 0;
 }
 .main__img {
-    width: 879px;
+    display: block;
+    max-width: 1100px;
     height: 354px;
+}
+.main__img::after {
+    content: "";
+    display: block;
+    background-color: #5dd1f8;
+}
+.main__head {
+    position: relative;
+}
+.head__text {
+    margin: 0;
+    position: absolute;
+    top: -210px;
+    left: 70px;
+    color: #ffffff;
+    font-family: 'GothamProBold', 'Open Sans', sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main__text {
+    margin-top: 31px;
+    width: 681px;
+    min-height: 674px;
+    color: #221f1f;
+    line-height: 30px;
+}
+.deal {
+    font-family: 'GothamProBold', 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.advantage {
+    margin: 0;
+    padding-left: 35px;
+    list-style: none;
+    position: relative;
+}
+.advantage li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%; 
+    background-color: #ec1e79;
+    margin-left: -18px;
+    margin-top: 12px;
+}
+.special {
+    width: 700px;
+    min-height: 113px;
+    box-sizing: border-box;
+    padding: 20px 59px 16px 30px;
+    background-color: #27273e;
+    color: #000;
+}
+.special__text {
+    margin: 0;
+    color: #fff;
+    line-height: 30px;  
+}
+.special__discount {
+    color: #ec1e79;
+    font-family: 'GothamProBold', 'Open Sans', sans-serif;
+}
+/*---------------PARTNERS__BLOCK-------------------*/
+.partners {
+    width: 700px;
+    margin-top: 59px;
+}
+.partners__head {
+    margin: 0;
+    margin-left: 4px;
+    font-family: 'GothamProBold', 'Open Sans', sans-serif;
+    color: #221f1f;
+    font-size: 49px;
+    text-transform: uppercase;
+}
+.partners__block {
+/*    margin-top: 50px;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.partner__item {
+    margin-top: 50px;
+    max-width: 160px;
+    max-height: 62px;
+}
+.partner__item:nth-child(2) {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*---------------FOOTER-----------------*/
+.footer {
+    min-height: 77px;
+    background-color: #27273e;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 72px;
+    padding-top: 14px;
+    width: 1100px;
+}
+.footer__contacts {
+    min-width: 270px;
+    margin-left: 20px;
+}
+.footer__author {
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+}
+.design__link {
+    color: #fff;
+    text-decoration: none;
+}
+.design__link:hover {
+    text-decoration: underline;
+}
+.author__link {
+    color: #fff;
+    text-decoration: none;
+}
+.author__link:hover {
+    color: yellow;
+    font-family: 'GothamProBold', 'Open Sans', sans-serif;
+}
+.footer__logo {
+    max-width: 99px;
+    margin-left: 209px;
+    margin-right: 302px;
+}
+.footer__social {
+    width: 180px;
+}
+.social__text {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'GothamProBold', 'Open Sans', sans-serif;
+}
+.social__btn {
+    display: flex;
+    margin-top: 9px;
+}
+.social__icon {
+    display: block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/contact-icons.png);
+    border-radius: 50%;
+}
+.icon__vk {
+    background-position: left;
+}
+.icon__fb {
+    background-position: -30px;
+}
+.icon__gplus {
+    background-position: -60px;
+}
+.icon__tw {
+    background-position: -90px;
+}
+.icon__mail {
+    background-position: right;
+}
+.social__icon:hover {
+    background-color: #ec1e79;
 }
