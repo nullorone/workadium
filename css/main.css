@@ -1,0 +1,12 @@
+/*Шрифты*/
+@import url(fonts.css);
+/*Общие стили body, html, wrapper, container*/
+@import url(common.css);
+/*Шапка*/
+@import url(header.css);
+/*Боковое меню*/
+@import url(sidebar.css);
+/*Основное контент*/
+@import url(main_content.css);
+/*Подвал*/
+@import url(footer.css);

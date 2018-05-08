@@ -1,0 +1,96 @@
+/*----------------FOOTER--------------------*/
+.footer {
+    background-color: #27273e; 
+    min-width: 1100px;
+    margin-top: -77px;
+    height: 77px;
+}
+.footer__block {
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+.footer__contacts {
+    float: left;
+    width: 270px;
+    margin-right: 209px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+}
+.footer__author {
+    margin: 0;
+    color: #ffffff;
+}
+.design__link {
+    color: #ffffff;
+    font-weight: 700;
+}
+.author__link {
+    color: #ffffff;
+}
+.author__link:hover {
+    color: yellow;
+    font-weight: 700;
+}
+.footer__logo {
+    float: left;
+    width: 99px;
+    margin-right: 302px;
+}
+.footer__social {
+    float: right;
+    width: 180px;
+}
+.social__text {
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.social__btn {
+    margin-top: 9px;
+}
+.social__icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: url(../img/social-icons.png) no-repeat;
+}
+.social__icon--vk {
+    margin-left: 8px;
+    background-position: left;
+}
+.social__icon--fb {
+    background-position: -30px;
+}
+.social__icon--gplus {
+    background-position: -60px;
+}
+.social__icon--tw {
+    background-position: -90px;
+}
+.social__icon--mail {
+    margin-right: 0;
+    background-position: right;
+}
+.social__icon:hover {
+    background: url(../img/social-icons_hover.png) no-repeat;
+}
+.social__icon--vk:hover {
+    background-position: left;
+}
+.social__icon--fb:hover {
+    background-position: -30px;
+}
+.social__icon--gplus:hover {
+    background-position: -60px;
+}
+.social__icon--tw:hover {
+    background-position: -90px;
+}
+.social__icon--mail:hover {
+    background-position: right;
+}

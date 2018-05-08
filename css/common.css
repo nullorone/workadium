@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'GothamPro', 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;  
+}
+.wrapper {
+    min-width: 1100px;
+    min-height: 100%;
+    overflow: hidden;
+}
+.wrapper::after {
+    content: "";
+    display: block;
+    height: 77px;
+}
+.container {
+    margin: 0 auto;
+    width: 1060px; 
+}
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
