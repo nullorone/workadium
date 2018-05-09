@@ -1,0 +1,335 @@
+/*Стили модификаторов*/
+.shedule__header--reviews {
+    color: #ec1e79;
+}
+.sidebar__link--item-1::before {
+    background: url(../img/icons_aside_hover.png) no-repeat top center;
+}
+.sidebar__link--item-3::before {
+    background: url(../img/icons_aside.png) no-repeat bottom center;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*-----------------MAIN__REVIEWS__NAV-------------------*/
+.main__reviews__nav {
+    margin: 0;
+    margin-top: 44px;
+    padding-left: 0;
+    list-style: none;
+}
+.reviews__nav__item {
+    float: left;
+}
+.reviews__nav__item:first-child::after {
+    content: " / ";
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 1px;
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 18px;
+}
+.reviews__nav__link {
+    display: inline-block;
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 18px;
+}
+.reviews__nav__link--general {
+    color: #ec1e79;
+    text-decoration: none;
+}
+.reviews__nav__link--general:hover {
+    text-decoration: underline;
+}
+/*----------------REVIEWS__BLOCK------------------*/
+.reviews__block {
+    margin-top: 23px;
+    float: left;
+    max-width: 875px;
+}
+.reviews__block__caption {
+    margin: 0;
+    margin-bottom: 46px;
+    color: #221f1f;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 49px;
+}
+.reviews__item {
+    min-height: 195px;
+}
+.reviews__item::after {
+    content: "";
+    display: block;
+    padding-top: 27px;
+    margin-bottom: 30px;
+    width: 880px;
+    height: 2px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.reviews__item:last-child::after {
+    display: none;
+}
+.reviews__item__avatar {
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+.avatar__user {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.reviews__item__description {
+    float: left;
+    margin-left: 19px;
+    max-width: 696px;
+}
+.descr__date {
+    margin: 0;
+    color: #656464;
+    font-size: 14px;
+    font-weight: 300;
+}
+.descr__username {
+    margin: 0;
+    margin-top: 5px;
+    color: #221f1f;
+    font-weight: 700;
+    line-height: 21px;
+}
+.descr__text {
+    margin: 0;
+    margin-top: 10px;
+    color: #221f1f;
+    font-weight: 300;
+    line-height: 30px;
+}
+/*-----------PAGE__CONTROLS----------*/
+.page__controls {
+    width: 880px;
+    height: 142px;
+}
+.page__controls__block {
+    padding-top: 47px;
+    margin-left: 211px;
+}
+.controls__block__item {
+    float: left;
+    width: 129px;
+}
+.controls__block__text {
+    margin: 0;
+    color: #656464;
+    font-size: 14px;
+    line-height: 21px;
+}
+.controls__block__nav {
+/*    display: inline-block;*/
+    margin: 0;
+    padding-left: 0;
+    height: 25px;
+    list-style: none;
+}
+.controls__block__nav li {
+    float: left;
+}
+.block__nav__page {
+    display: inline-block;
+    margin-right: 18px;
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+}
+.block__nav__page-back {
+    display: inline-block;
+    width: 10px;
+    opacity: 0.3;
+    margin-right: 3px;
+}
+.block__nav__page-forward {
+    display: inline-block;
+    width: 10px;
+    margin-right: 0px;
+}
+.block__nav__page-current {
+    width: 25px;
+    background-color: #27273e;
+    color: #ec1e79;
+    padding-left: 10px;
+    padding-right: 9px;
+    margin-right: 9px;
+    margin-left: 9px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+/*-------------REVIEWS__FORM-------------*/
+.reviews__form {
+    width: 700px;
+    min-height: 427px;
+    background-color: #f5f5f5;
+}
+.form__block {
+    padding-top: 51px;
+    padding-left: 70px;
+    padding-bottom: 49px;
+    box-sizing: border-box;
+    
+}
+.form__caption {
+    margin: 0;
+    color: #221f1f;
+    font-size: 49px;
+    font-weight: 700;
+}
+.form__username-info {
+    margin-top: 30px;
+}
+form input:focus {
+    border: 1px solid #ec1e79;
+}
+.form__username {
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+}
+.form__username__text {
+    display: block;
+    color: #221f1f;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.form__username input {
+    width: 269px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    color: #221f1f;
+    opacity: 0.5;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.form__username__link {
+    float: left;
+    width: 270px;
+}
+.form__username__link-vk__text {
+    display: block;
+    color: #221f1f;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.form__username__link input {
+    width: 269px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    color: #221f1f;
+    opacity: 0.5;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+.form__textarea-caption {
+    display: block;
+    color: #221f1f;
+    font-size: 14px;
+    margin-top: 21px;
+    padding-bottom: 10px;
+}
+.form_reviews-text {
+    width: 560px;
+    height: 90px;
+    padding: 0;  
+}
+.form_reviews-text {
+    font-family: "Gotham Pro", "Arial", sans-serif;
+    color: #221f1f;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 9px;
+    border: none;
+}
+.form__username-confirm__block {
+    float: left;
+    width: 380px;
+    margin-top: 15px;
+}
+.form__username-confirm {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #221f1f;
+}
+.form__radio {
+    color: #221f1f;
+    font-size: 14px;
+    padding-left: 25px;
+    position: relative;
+}
+.form__username-confirm__block input[type="radio"] {
+    display: none;
+}
+.form__radio::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+}
+/*
+.form__radio--active::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ec1e79;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    left: -25px;
+}
+*/
+.form__btn {
+    float: right;
+    margin-top: 15px;
+    margin-right: 60px;  
+}
+.form__btn input {
+    padding: 0;
+    width: 139px;
+    height: 45px;
+    background-color: #27273e;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: "Gotham Pro", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    border: none;
+}
+.form__btn input:hover {
+    cursor: pointer;
+}
+.empty {
+    height: 70px;
+}

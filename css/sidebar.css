@@ -42,16 +42,6 @@
     bottom: -4px;
     background:  url(../img/icons_aside_hover.png) no-repeat center center;
 }
-.sidebar__link--item-2::before {
-    content: "";
-    display: inline-block;
-    width: 21px;
-    height: 19px;
-    position: absolute;
-    left: -37px;
-    bottom: -4px;
-    background:  url(../img/icons_aside_hover.png) no-repeat center center;
-}
 .sidebar__link--item-3::before {
     content: "";
     display: inline-block;
@@ -65,6 +55,9 @@
 .sidebar__link--active,
 .sidebar__link:hover {
     color: #221f1f;
+}
+.sidebar__link--item-1:hover::before {
+    background: url(../img/icons_aside.png) no-repeat top center;
 }
 .sidebar__link--item-2:hover::before {
     background: url(../img/icons_aside.png) no-repeat center center;
