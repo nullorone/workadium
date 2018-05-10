@@ -284,6 +284,7 @@ form input:focus {
 .form__username-confirm__block input[type="radio"] {
     display: none;
 }
+
 .form__radio::before {
     content: "";
     display: inline-block;
@@ -291,23 +292,30 @@ form input:focus {
     height: 20px;
     border: 1px solid #c9c9c9;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #fff;
     position: absolute;
     left: 0;
 }
-/*
-.form__radio--active::before {
+.form__username-confirm__block #confirm-yes:checked ~ #yes,
+.form__username-confirm__block #confirm-no:checked ~ #no {
+    color: #ec1e79;
+}
+.form__username-confirm__block #confirm-yes:checked ~ #yes::before,
+.form__username-confirm__block #confirm-no:checked ~ #no::before {
+    border: 1px solid #ec1e79; 
+}
+.form__username-confirm__block #confirm-yes:checked ~ #yes::after,
+.form__username-confirm__block #confirm-no:checked ~ #no::after {
     content: "";
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #ec1e79;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #ec1e79;
     position: absolute;
-    left: -25px;
+    left: 8px;
+    top: 6px;
 }
-*/
 .form__btn {
     float: right;
     margin-top: 15px;
