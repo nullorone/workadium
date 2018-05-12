@@ -90,7 +90,7 @@
     height: 450px;
 }
 .rates__item__link:hover {
-    border: 1px solid #221f1f;
+    border: 1px solid #ec1e79;
     border-radius: 5px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
